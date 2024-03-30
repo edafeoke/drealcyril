@@ -256,15 +256,19 @@ a:focus {
 .navbar-expand-lg .navbar-nav .nav-link.contact {
   border: 2px solid var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color: var(--secondary-color);
   font-family: var(--font-bold-family);
   padding: 0.6em 2em 0.8em 2em;
+  background: var(--secondary-color);
+  color: var(--white-color);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.contact:hover,
 .navbar-expand-lg .navbar-nav .nav-link.contact.active {
   background: var(--secondary-color);
-  color: var(--white-color);
+  /* color: var(--white-color); */
+  background: var(--white-color);
+  color: var(--secondary-color);
+
 }
 
 .navbar-nav .navbar-toggler-icon {
